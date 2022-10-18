@@ -1,17 +1,16 @@
-.card-container {
-    border: 1px rgb(249, 69, 10) solid;
+.card-container { 
    padding: 5px;
    margin: 5px;  
 }
 
 .cards-container {
     border: 1px rgb(50, 7, 169) solid;
-
     margin: 10px;
     display: flex; 
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
+    max-width: max-content;
 }
  

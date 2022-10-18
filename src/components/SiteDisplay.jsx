@@ -1,10 +1,10 @@
 import React from 'react';
 import Card from './Card';
 
-const SiteDisplay = ({ sites = [],i }) => {
+function SiteDisplay({ sites }) {
     return (
         <div>
-            {sites.map(site => {
+            {sites?.map(site => {
                 return (
                     <div className='cards-container'>
                         <Card key={site.id} id={site.id} name={site.name} url={site.url} />
@@ -13,7 +13,6 @@ const SiteDisplay = ({ sites = [],i }) => {
                 );
             })}
         </div>
-
     );
-};
+}
 export default SiteDisplay;
