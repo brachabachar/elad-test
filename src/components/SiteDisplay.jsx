@@ -3,7 +3,7 @@ import Card from './Card';
 
 function SiteDisplay({ sites }) {
     return (
-        <div>
+        <>
             {sites?.map(site => {
                 return (
                     <div className='cards-container'>
@@ -12,7 +12,7 @@ function SiteDisplay({ sites }) {
                     </div>
                 );
             })}
-        </div>
+        </>
     );
 }
 export default SiteDisplay;

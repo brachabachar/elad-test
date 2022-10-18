@@ -2,15 +2,15 @@
    padding: 5px;
    margin: 5px;  
 }
-
+div.container {
+    display: flex; 
+} 
 .cards-container {
     border: 1px rgb(50, 7, 169) solid;
-    margin: 10px;
-    display: flex; 
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    max-width: max-content;
+    border-radius: 25px;
+    margin: 20px;
+    height: fit-content;
 }
- 
+.container{
+    background-color: white;
+}

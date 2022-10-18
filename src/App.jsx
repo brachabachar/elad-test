@@ -3,7 +3,7 @@ import SiteDisplay from './components/SiteDisplay';
 function App() {
 
   return (
-    <div >
+    <div className='container'>
       <SiteDisplay sites={sites} />
     </div>
   );
